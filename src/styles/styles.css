@@ -1,0 +1,1421 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Josefin Sans";
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+#header_wrapper,
+#welcome_block_wrapper,
+#testimonial_block_wrapper,
+#img_wrapper,
+#services_block_wrapper,
+#reservation_block_wrapper,
+#footer_wrapper {
+	display: flex;
+	background: #292E36;
+	width: 100%;
+	justify-content: center;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+#main_header, nav, #welcome_block,
+#testimonial_block, #offers_block,
+#services_block, #blog_block,
+#reservatin_block, footer {
+	width: 100vw;
+	max-width: 1440px;
+}
+
+#welcome_block_text, #welcome_image_block {
+	max-width: 720px;
+}
+
+#main_header {
+	padding-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#main_header a {
+	width: 300px;
+	text-align: center;
+	padding: 20px 0px;
+	font-size: 22px;
+	text-decoration: none;
+	border: 2px solid #E1B168;
+}
+
+#main_header a:first-child {
+	color: #FFFFFF;
+}
+
+#main_header a:last-child {
+	color: #292E36;
+	background-color: #E1B168;
+}
+
+#main_header img {
+	width: 380px;
+}
+
+nav {
+	border-top: 1px solid #5C6168;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 80px;
+	align-items: center;
+}
+
+#main_navigation {
+	justify-content: space-evenly;
+}
+
+#main_navigation .nav_elem {
+	margin: 0px 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#nav_active, .nav_elem:hover {
+	color: #E1B168 !important;
+}
+
+#social_links {
+	margin-right: 10px;
+}
+
+#social_links a {
+	text-decoration: none;
+}
+
+#social_links a img,
+#footer_social_links a img {
+	width: 25px;
+	height: 25px;
+	margin: 0px 10px;
+}
+
+#welcome_block {
+	display: flex;
+	flex-direction: row;
+	color: #FFFFFF;
+	align-items: center;
+}
+
+#welcome_block_text {
+	margin-left: 20px;
+	width: calc(50% - 20px);
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+#welcome_block_text div {
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+#welcome_block_text h1 {
+	font-family: 'Cormorant Infant';
+	font-size: 100px;
+	line-height: 110px;
+	margin-bottom: 25px;
+}
+
+#welcome_block_text a,
+#special_dishes a,
+#popular_block a {
+	display: block;
+    width: 230px;
+    padding: 20px 0px;
+    color: #E1B168;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #E1B168;
+    font-size: 22px;
+}
+
+#welcome_image_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	margin-right: 10px;
+	width: calc(50% - 10px);
+}
+
+#second_column {
+	position: relative;
+	width: calc(100% - 60px);
+}
+
+#rectangle1, #rectangle2, #rectangle3 {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+#rectangle1, #rectangle3 {
+	width: 30px;
+	margin-top: 30px;
+}
+
+#rectangle2 {
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+#second_column img:nth-child(2) {
+	width: calc(100% - 60px);
+	max-width: 590px;
+	display: block;
+	margin: 0px 30px;
+}
+
+#welcome_image_block img:last-child {
+	width: 300px;
+	position: absolute;
+	top: 25px;
+	right: -15px;
+}
+
+#general_information_block_wrapper,
+#story_block_wrapper {
+	display: flex;
+	background: #FFF8F5;;
+	width: 100%;
+	justify-content: center;
+}
+
+#general_information_block,
+#story_block {
+	width: 100%;
+	max-width: 1440px;
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#general_information_block img {
+	width: 85px;
+	height: 85px;
+	margin-right: 20px;
+}
+
+#general_information_block > div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.general_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.general_information_title {
+	font-size: 30px;
+}
+
+.general_information_description {
+	font-size: 20px;
+}
+
+#story_block {
+	margin-bottom: 100px;
+}
+
+#story_block > div {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 20px;
+    box-sizing: border-box;
+	justify-content: center;
+}
+
+#story_block > div:first-child {
+	width: 59%;
+}
+
+#story_block > div:last-child {
+	width: 41%;
+}
+
+#story_img {
+	max-width: 100%;
+}
+
+.block_info h1 {
+	font-family: "Cormorant Infant";
+	font-size: 40px;
+	line-height: 56px;
+	color: #292E36;
+	margin-bottom: 15px;
+}
+
+#story_text > div {
+	margin-bottom: 20px;
+}
+
+#story_text div,
+#special_dishes div,
+#offers_block_text div,
+.offer_meal .block_info,
+#popular_block_text div,
+#blog_block_text div {
+	font-size: 20px;
+	line-height: 30px;
+	color: #555555;
+	letter-spacing: 0.2px;
+}
+
+#story_years {
+	display: flex;
+    flex-direction: row;
+}
+
+#story_years > div {
+	width: 50%;
+}
+
+#story_signature {
+	width: 200px;
+}
+
+#menu_block, #offers_block,
+#popular_block, #blog_block,
+#reservation_block {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+#menu_block_wrapper,
+#offers_block_wrapper,
+#popular_block_wrapper,
+#blog_block_wrapper {
+	background: #FFFFFF;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.block_main_header {
+	display: inline-block;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 3px;
+	padding-top: 6px;
+    border-bottom: 1px solid #E1B168;
+    border-top: 1px solid #E1B168;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 20px;
+}
+
+#dishes {
+	display: flex;
+	flex-direction: row;
+}
+
+#dishes > div {
+	padding: 0px 20px;
+}
+
+#special_dishes {
+	width: 40%;
+}
+
+#main_menu {
+	width: 60%;
+}
+
+#special_dishes div {
+	margin-bottom: 45px;
+}
+
+#special_dishes img {
+	max-width: 400px;
+	margin-bottom: 60px;
+}
+
+#main_menu h2 {
+	font-family: 'Cormorant Infant';
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	margin-bottom: 40px;
+}
+
+.menu_item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.menu_item:last-child {
+	margin-bottom: 100px;
+}
+
+.dish_preview {
+	width: 84px;
+	height: 84px;
+	margin-right: 20px;
+}
+
+.dish_title, .dish_description {
+	width: max-content;
+}
+
+.dish_title, .menu_price {
+	font-family: 'Cormorant Infant';
+	font-size: 30px;
+	line-height: 42px;
+	letter-spacing: 0.2px;
+	color: #292E36;
+}
+
+.dish_description {
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+	color: #555555;
+}
+
+.horizontal_line {
+	width: 100%;
+	border-bottom: 1px solid #797E89;
+}
+
+.menu_item .horizontal_line {
+	margin: 55px 10px 0px;
+}
+
+#testimonial_block {
+	margin-top: 100px;
+	color: #FFFFFF;
+}
+
+#testimonial_text h1,
+#services_text h1 {
+	color: #FFFFFF;
+}
+
+#testimonial_text,
+#services_text {
+	padding: 0px 20px;
+}
+
+#testimonial_text h1, .reviewer_name,
+#services_text h1, #reservation_text h1 {
+	font-family: "Cormorant Infant";
+	font-size: 40px;
+	line-height: 56px;
+	margin-bottom: 15px;
+}
+
+#special_dishes div,
+#testimonial_text div,
+#services_text div {
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#special_dishes div {
+	color: #555555;
+}
+
+#reviews {
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden;
+}
+
+#reviews > div {
+	display: flex;
+}
+
+.review {
+	margin: 0px 15px 80px 0px;
+	width: 545px;
+	background: #343942;
+	padding: 0px 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.review:not(#review1) {
+	margin-left: 15px;
+}
+
+#review1 {
+	margin-left: 20px
+}
+
+.reviewer_info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+.reviewer_photo {
+	width: 115px;
+	height: 115px;
+	margin-right: 20px;
+}
+
+.reviewer_name {
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+.reviewer_location {
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+	color: #E1B168;
+}
+
+.review .horizontal_line {
+	margin: 30px 0px;
+}
+
+.review_text {
+	font-family: 'Cormorant Infant';
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.25px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+#reviews_scroll {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+#active_circle, #passive_circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+#active_circle {
+	background-color: #FFFFFF;
+	margin-right: 5px;
+}
+
+#passive_circle {
+	background: rgba(255, 255, 255, 0.4);
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#img_wrapper img,
+#reservation_block_wrapper img {
+	width: 100%;
+	max-width: 1440px;
+}
+
+#offers_block, #popular_block, #blog_block {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#offers_block .block_main_header,
+#popular_block .block_main_header,
+#blog_block .block_main_header,
+#reservation_text .block_main_header {
+	margin: 0px auto 20px;
+}
+
+#offers_block_text div,
+#popular_block_text div,
+#blog_block_text div {
+	width: 55%;
+	margin: 0px auto 40px;
+}
+
+#offer_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.offer_meal {
+	width: 100%;
+	height: 410px;
+	max-width: 680px;
+	margin: 0px 20px;
+	position: relative;
+	text-align: left;
+	background-size: cover;
+}
+
+.offer_meal:not(.offer_meal:last-child),
+.popular_dish:not(.popular_dish:last-child),
+.blog_post:not(.blog_post:last-child) {
+	margin-bottom: 20px;
+}
+
+.offer_price {
+	margin: 65px 0px 50px 40px;
+	width: 150px;
+	height: 95px;
+	background-size: cover;
+}
+
+.offer_price div:first-child {
+	padding-top: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.offer_price div:last-child {
+	font-family: 'Cormorant Infant';
+	font-size: 50px;
+	text-align: center;
+}
+
+.offer_1 div {
+	color: #292E36;
+}
+
+.offer_2 div {
+	color: #FFFFFF;
+}
+
+.offer_meal_photo_wrapper {
+	display: flex;
+	justify-content: center;
+    align-items: center; 
+}
+
+.offer_meal_photo {
+	height: 250px;
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 125px);
+}
+
+.offer_meal .block_info {
+	max-width: 265px;
+	margin-left: 20px !important;
+}
+
+.offer_meal .block_main_header {
+	margin: 0px 0px 10px 0px !important;
+    border-bottom: 1px solid #292E36;;
+    border-top: 1px solid #292E36;
+}
+
+#popular_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0px 5px;
+	margin-bottom: 65px;
+}
+
+.popular_dish_title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.popular_dish {
+	width: 317.5px;
+	margin: 0px 15px;
+}
+
+.popular_dish_img {
+	width: 100%;
+	height: 317.5px;
+	background-size: cover;
+	margin-bottom: 10px;
+}
+
+.popular_dish_title {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.dish_horisontal_line {
+	width: 100%;
+	border-bottom: 1px solid #DCDCDC;
+	margin-bottom: 10px;
+}
+
+.popular_dish .dish_description {
+	text-align: left;
+	width: 100%;
+}
+
+#popular_block a {
+	margin: 0px auto 100px;
+}
+
+#services_block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 100px auto;
+	color: #FFFFFF;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#services_text {
+	max-width: 450px;
+}
+
+#services_text .block_main_header {
+	margin-left: 0px;
+}
+
+#services_icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	height: 235px;
+	width: 255px;
+	border: 20px solid #323841;
+	margin-right: 30px;
+}
+
+.service:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.service img {
+	width: 60px;
+	height: 60px;
+	margin-bottom: 15px;
+}
+
+.service div {
+	font-size: 25px;
+	line-height: 35px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+}
+
+#blog_posts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 130px;
+}
+
+.blog_post {
+	max-width: 640px;
+}
+
+.blog_post_img_block {
+	display: flex;
+	position: relative;
+}
+
+.darkening{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blog_post_img_block img {
+	max-width: 100%;
+}
+
+.darkening {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.65);
+}
+
+.post_view_button {
+	color: #292E36;
+    background-color: #E1B168;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.blog_post_border {
+	border-left: 1px solid #C4C4C4;
+	border-bottom: 1px solid #C4C4C4;
+	border-right: 1px solid #C4C4C4;
+}
+
+.blog_post_text {
+	margin: 0px auto;
+	padding-top: 50px;
+	width: 80%;
+}
+
+.blog_post_text .block_main_header {
+	margin: 0px 20px 30px 0px !important;
+}
+
+.blog_post_text a.block_main_header {
+	cursor: pointer;
+}
+
+.blog_post_title, .blog_post_description {
+	text-align: left;
+}
+
+.blog_post_title {
+	font-family: 'Cormorant Infant';
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: 0.2px;
+	color: #292E36;
+	margin-bottom: 25px;
+}
+
+.blog_post_description {
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+	color: #555555;
+	margin-bottom: 40px;
+}
+
+#reservation_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+#reservation_form {
+	max-width: 920px;
+	background: rgba(41, 46, 54, 0.95);
+	position: absolute;
+}
+
+form {
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 100px;
+}
+
+form div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0px -15px;
+}
+
+input[name="visitors_name"],
+input[name="visitors_email"] {
+	width: calc(100% / 2 - 30px);
+	color: #FFFFFF;
+}
+
+input[name="number_of_visitors"],
+input[name="booking_time"],
+input[name="booking_date"] {
+	width: calc(100% / 3 - 30px);
+	color: #FFFFFF;
+}
+
+input[name="booking_button"] {
+	padding: 20px 55px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	margin: 0px auto;
+	border: none;
+}
+
+form input {
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.2px;
+}
+
+form input:not(input[type=button]) {
+	padding: 20px;
+	margin: 0px 15px 30px;
+	background: transparent;
+	border: 1px solid #858585;
+	box-sizing: border-box;
+	outline-width: 0;
+}
+
+form input::placeholder {
+	color: #FFFFFF;
+}
+
+#reservation_text {
+	color: #FFFFFF;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+footer {
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}
+
+#footer_block_1, #footer_block_2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#footer_block_1 {
+	margin-top: 100px;
+	padding: 0px 40px 20px;
+}
+
+#footer_block_1 div,
+#footer_contacts,
+#footer_working_hours {
+	width: 25%;
+}
+
+#footer_block_1 div:first-child {
+	font-size: 20px;
+	line-height: 33px;
+	letter-spacing: 0.2px;
+}
+
+#footer_block_1 img {
+	max-width: 380px;
+	width: 50%;
+}
+
+#footer_social_links {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+
+#footer_block_2 {
+	margin-bottom: 100px;
+	padding: 0px 40px 50px;
+}
+
+#footer_block_2 > div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#footer_block_2 .block_main_header {
+	margin: 0px 0px 30px 0px;
+	width: max-content;
+}
+
+#footer_contacts a {
+	color: #E1B168;
+	text-decoration: none;
+}
+
+#footer_block_2 > div:nth-child(2) {
+	text-align: center;
+	width: 50%;
+}
+
+input[name="subscribe_email"],
+input[name="subscribe_button"] {
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.2px;
+	padding: 17px;
+	box-sizing: border-box;
+	outline-width: 0;
+}
+
+input[name="subscribe_email"] {
+	margin-top: 25px;
+	background: transparent;
+	color: #FFFFFF;
+	width: 70%;
+	border: 1px solid #858585;
+}
+
+input[name="subscribe_email"]::placeholder {
+	color: #FFFFFF;
+}
+
+input[name="subscribe_button"] {
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px solid #FFFFFF;
+	width: max-content;
+	cursor: pointer;
+}
+
+#footer_working_hours {
+	align-items: end;
+}
+
+#footer_working_hours .block_main_header {
+	display: flex;
+	align-items: flex-end;
+}
+
+#footer_working_hours span {
+	color: #E1B168;
+}
+
+@media (max-width: 1199px) {
+	#main_header_img_div {
+		width: 100%;
+	}
+
+	#main_header img {
+		order: 1;
+		padding: 0px 50px;
+		display: block;
+		margin: 0px auto 50px;
+	}
+
+	#main_header a:first-child {
+		order: 2;
+	}
+
+	#main_header a:last-child {
+		order: 3;
+	}
+
+	#welcome_block_text h1 {
+	    font-size: 75px;
+	}
+
+	#general_information_block > div {
+		margin: 0px 50px 50px;
+	}
+
+	#story_block {
+		margin-top: 50px;
+	}
+
+	.dish_info {
+		width: 40%;
+	}
+
+	.dish_info .dish_title, .dish_info .dish_description {
+		width: 100%;
+	}
+
+	.menu_item .horizontal_line {
+    	width: 100%;
+    }
+
+    #services_block {
+	    flex-direction: column;
+	    margin-bottom: 70px;
+	}
+
+	#services_block #services_text {
+		margin-bottom: 50px;
+		max-width: 825px;
+	}
+
+	#footer_block_1 div, #footer_contacts,
+	#footer_working_hours {
+	    width: 30%;
+	}
+
+	#footer_block_1 img,
+	#footer_block_2 > div:nth-child(2) {
+    	width: 40%;
+    }
+
+    #services_icons {
+		flex-wrap: wrap;
+	}
+
+    .service {
+    	margin: 0px 15px 30px;
+    }
+
+    .service:nth-child(3n) {
+		margin-right: 15px;
+	}
+
+    input[name="subscribe_email"] {
+    	width: 0px;
+    	min-width: 55%;
+    }
+}
+
+@media (max-width: 979px) {
+	header {
+		margin-bottom: 0px;
+	}
+
+	nav {
+		flex-direction: column;
+    	justify-content: space-around;
+	}
+
+	#welcome_block {
+		align-items: end;
+	}
+
+	#welcome_block_text {
+		display: flex;
+    	flex-direction: column;
+	}
+
+	#welcome_block_text h1 {
+		font-size: 9vw;
+    	line-height: 10vw;
+	}
+
+	#welcome_block_text a {
+		margin-bottom: 30px;
+	}
+
+	#dishes {
+		flex-direction: column;
+	}
+
+	#menu_block_wrapper,
+	#offers_block_wrapper {
+		margin-top: 50px;
+	}
+
+	#menu_block, #testimonial_block, #services_text {
+		width: 90% !important;
+	    padding: 0px;
+	    text-align: center;
+		margin: 0px auto;
+	}
+
+	#dishes > div {
+		padding: 0px;
+		width: 100%;
+	}
+
+	#special_dishes div,
+	#testimonial_text div,
+	#offers_block_text div,
+	#popular_block_text div,
+	#blog_block_text div {
+		margin-bottom: 25px;
+	}
+
+	#special_dishes img,
+	#offers_block, #popular_block,
+	#popular_list {
+		margin-bottom: 50px;
+	}
+
+	#special_dishes a {
+		margin: 0px auto 50px;
+	}
+
+	.block_main_header {
+		margin: 0px auto 10px!important;
+	}
+
+	#special_dishes img {
+		width: 100%;
+	}
+
+	.dish_info {
+		width: auto;
+	}
+
+	.dish_info .dish_title,
+	.dish_info .dish_description {
+		width: max-content;
+	}
+
+	#testimonial_block, #offers_block_wrapper,
+	#popular_block_wrapper, #services_block,
+	#blog_block_wrapper {
+		margin-top: 50px;
+	}
+
+	#reviews {
+		margin-top: auto;
+		text-align: left;
+	}
+
+	#popular_block a {
+		margin-bottom: 0px;
+	}
+
+	#general_information_block > div {
+		min-width: 420px;
+	}
+
+	#footer_contacts {
+	    order: 2;
+	    width: max-content;
+	}
+
+	#footer_block_2 > div:nth-child(2) {
+	    width: 100%;
+	    order: 1;
+	    margin-top: 30px;
+	}
+
+	#footer_working_hours {
+		order: 3;
+	    width: max-content;
+	}
+
+	#footer_contacts .block_main_header,
+	#footer_working_hours .block_main_header {
+		margin: 0px 0px 30px 0px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	#main_header {
+		margin-bottom: 30px;
+	}
+
+	#main_header a {
+		margin-bottom: 20px;
+	}
+
+	#main_header_img_div img {
+		padding: 0px;
+		width: 90%; 
+	}
+
+	#main_navigation {
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.nav_elem {
+		display: inline-block;
+		margin-bottom: 15px !important;
+	}
+
+	#welcome_block, #story_block > div {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px auto 0px;
+	}
+
+	#welcome_block_text h1,
+	#story_text h1,
+	#special_dishes h1,
+	#testimonial_text h1,
+	#offers_block_text h1,
+	#popular_block_text h1,
+	#services_text h1,
+	#blog_block_text h1 {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	#welcome_block_text h1 {
+		margin-bottom: 15px;
+	    font-family: "Cormorant Infant";
+	    font-size: 40px;
+	    line-height: 56px;
+	}
+
+	#welcome_block_text, #welcome_image_block,
+	#story_block > div {
+	    width: 90% !important;
+	    margin: 0px;
+	    padding: 0px;
+	    text-align: center;
+		margin: 0px auto;
+	}
+
+	#welcome_block_text div {
+		margin-bottom: 25px;
+	}
+
+	#welcome_block_text a {
+		margin: 0px auto 25px;
+	}
+
+	#welcome_image_block img:last-child {
+		width: 40vw;
+	}
+
+	#general_information_block {
+		margin-top: 50px;
+		width: 90%;
+	}
+
+	#general_information_block > div {
+		margin: 0px auto 50px;
+		min-width: auto;
+		width: max-content;
+		text-align: center;
+	}
+
+	#general_information_block > div > div {
+		width: 100%;
+	}
+
+	#general_information_block img {
+		margin: 0px auto 20px;
+	}
+
+	#second_column img:nth-child(2) {
+		min-width: unset;
+	}
+
+	#story_block {
+		flex-direction: column;
+		margin: 0px auto 50px;
+	}
+
+	#story_block > div:first-child {
+		order: 2;
+	}
+
+	#story_text {
+		order: 1;
+	}
+
+	#story_signature {
+		margin-bottom: 20px;
+	}
+
+	#menu_item,
+	.dish_info .dish_title,
+	.dish_info .dish_description {
+		width: 100%;
+	}
+
+	.menu_item {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.dish_preview {
+		order: 1;
+	}
+
+	.dish_info {
+		width: 100%;
+		order: 3;
+		margin-top: 10px;
+	}
+
+	.menu_item .horizontal_line {
+		display: none;
+	}
+
+	.menu_price {
+		order: 2;
+	}
+
+	.review {
+		margin-left: 0px !important;
+		width: 90vw;
+	}
+
+	.offer_meal_photo {
+		top: 50px;
+		width: 40vw;
+		height: auto;
+	}
+
+	#blog_posts {
+		margin-bottom: 50px;
+	}
+
+	#reservation_block_wrapper img {
+		width: 100%;
+		height: 100vh;
+	}
+
+	form input:not(input[type=button]) {
+		margin: 0px 5px 10px;
+	}
+
+	input[name="visitors_name"],
+	input[name="visitors_email"] {
+		width: calc(100% / 2 - 10px);
+	}
+
+	input[name="number_of_visitors"],
+	input[name="booking_time"],
+	input[name="booking_date"] {
+		width: calc(100% / 3 - 10px);
+	}
+
+	#footer_block_1 {
+		flex-direction: column;
+		padding-bottom: 0px;
+	}
+
+	#footer_block_1 > img {
+		order: 1;
+		width: 50%;
+		min-width: 250px;
+		margin: 0px auto 15px;
+	}
+
+	#footer_block_1 div {
+		width: auto;
+	}
+
+	#footer_block_1 div:first-child {
+		order: 2;
+		margin-bottom: 15px;
+	}
+
+	#footer_social_links {
+		order: 3;
+	}
+
+	#footer_block_2 > div {
+		width: 100%;
+	}
+
+	#footer_contacts, #footer_working_hours {
+		align-items: center;
+	}
+
+	#footer_working_hours {
+		margin-top: 30px;
+	}
+}
